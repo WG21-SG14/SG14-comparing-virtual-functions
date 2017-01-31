@@ -303,7 +303,7 @@ b) The performance may be questionable, because the conversion (in the link abov
 
 <p class='red'>The being said addressing the right function statically if you had multiple inheritance I have not tried to do this yet. You need 2 function pointers in my test. One a statically bound one that I get before the loop and a dynamically bound one for each object and compare these together. I do worry that the static one might be a tricky to address in multiple inheritance cases. This would stop this code from being as useful in my real test.
 
-c) It smells like the second half of the ill-fated unified-call-syntax (n4474). It converts a member function to plain function, though, as Ville pointed out, the unified-call-syntax does not provide this capability.
+c) It smells like the second half of the ill-fated unified-call-syntax ([[n4474]]). It converts a member function to plain function, though, as Ville pointed out, the unified-call-syntax does not provide this capability.
 
 <p class='red'>I see what you mean it does have the unintended consequence of making function pointer (but not normal functions) have the unified-call-syntax. I don’t see how to get around this issue. Maybe this is a feature not a bug.
 
