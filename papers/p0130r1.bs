@@ -10,7 +10,7 @@ Editor: Robert Parolin <robertoparolin@gmail.com>
 Editor: Sunil Srivastava <sunil149@gmail.com>
 Editor: Paul "TBBle" Hampson <p_hampson@wargaming.net>
 Date: 2016-03-13
-Abstract: When refactoring entity systems for speed it can be useful to compare if some object has a method or not. A way if a instance of a class has a particular function in its virtual table would be useful. Currently we can do this using the GCC extension -Wno-pmf-conversions and achieve a more localized change to the code with similar performance to say using enums and better performance then using a extra virtual function call.
+Abstract: When refactoring entity systems for speed it can be useful to compare if some object has a method or not. A way to find out if a instance of a class has a particular function in its virtual table would be useful. Currently we can do this using the GCC extension -Wno-pmf-conversions. With this extension we can achieve a more localized change to the code but with similar performance, using enums and better performance then using a extra virtual function call.
 ED: https://github.com/TBBle/SG14-comparing-virtual-functions/blob/master/papers/p0130r1.bs
 </pre>
 
@@ -23,7 +23,7 @@ Motivation {#motivation}
 ========================
 Entity systems written in C++ are used often used in games. A simple (and maybe naïve) entity would be a class with a virtual update function. Simple (and maybe naïve) entity systems could be a vector of Entity base pointers. The main loop would call each entities update function once per frame by looping though each entity and calling update.
 
-Once you had this type of entity system, programmers (or more likely content creators) would then add their own entity like soldiers, zombies or basketball players to the list of entities and you would update the whole system of basketball players, zombies and soldiers just by calling the entity system update. Programmers setup the entity type and content creators would make the entity part of the world.
+Once you had this type of entity system, programmers (or more likely content creators) would then add their own entity like soldiers, zombies or basketball players to the list of entities and you would update the whole system of basketball players, zombies and soldiers just by calling the entity system update function. Programmers setup the entity type and content creators would make the entity part of the world.
 
 Each game wants to have new types of entities. A basketball player does not move like a zombie, so the entity behavior must differ. Game teams don’t want to handle all problems involved with making entities that walk because these are very hard problems. For example, you need a whole animation system to make walk cycles, etc. Games share large libraries of functions between each other and this is typically called an engine.
 
