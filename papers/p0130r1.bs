@@ -6,7 +6,7 @@ Revision: 1d1
 Status: D
 Audience: EWG, SG14
 Editor: Scott Wardle <swardle@gmail.com>
-Editor: Robert Parolin <robertoparolin@gmail.com>
+Editor: Roberto Parolin <robertoparolin@gmail.com>
 Editor: Sunil Srivastava <sunil149@gmail.com>
 Editor: Paul "TBBle" Hampson <p_hampson@wargaming.net>
 Date: 2016-03-13
