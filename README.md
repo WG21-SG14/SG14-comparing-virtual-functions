@@ -4,7 +4,7 @@ A proposal being developed in ISO C++ (WG21) Study Group 14 for comparing ultima
 
 ## Papers
 ### Published
-[p01030](http://wg21.link/p0130) Comparing Virtual Methods: [r0](http://wg21.link/p0130r0)
+[p0130](http://wg21.link/p0130) Comparing Virtual Methods: [r0](http://wg21.link/p0130r0)
 
 ### Drafting
 Drafts of papers for presentation to SG14 or the various Working Groups are prepared in [papers/](papers)
