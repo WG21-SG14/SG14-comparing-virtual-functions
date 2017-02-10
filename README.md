@@ -11,6 +11,8 @@ Drafts of papers for presentation to SG14 or the various Working Groups are prep
 
 Papers are .bs files written for processing in [Bikeshed](https://tabatkins.github.io/bikeshed/).
 
+Pregenerated WIP versions will be occasionally committed for easier review/discussion:
+
 p0130 Comparing Virtual Methods: [r1 WIP](https://tbble.github.io/SG14-comparing-virtual-functions/p0130r1.html)
 
 ## Example code
