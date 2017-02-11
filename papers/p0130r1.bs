@@ -11,7 +11,7 @@ Editor: Sunil Srivastava <sunil149@gmail.com>
 Editor: Paul "TBBle" Hampson <p_hampson@wargaming.net>
 Date: 2016-03-13
 Abstract: When refactoring entity systems for speed it can be useful to compare if some object has a method or not. A way to find out if a instance of a class has a particular function in its virtual table would be useful. Currently we can do this using the GCC extension -Wno-pmf-conversions. With this extension we can achieve a more localized change to the code but with similar performance, using enums and better performance then using a extra virtual function call.
-ED: https://github.com/TBBle/SG14-comparing-virtual-functions/blob/master/papers/p0130r1.bs
+ED: https://github.com/WG21-SG14/SG14-comparing-virtual-functions/blob/master/papers/p0130r1.bs
 </pre>
 
 <style type="text/css">
