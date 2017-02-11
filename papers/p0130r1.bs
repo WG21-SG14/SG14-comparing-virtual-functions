@@ -78,11 +78,11 @@ I tested each of these on gcc 4.8.4 on ubuntu 14.04.1 virtual box on my 11” ai
 Speed Test Chart 1
 
 <!--
-* Generated from datatable.xlsx by saving to PDF and importing into Inkscape
+* Generated from p0130/datatable.xlsx by saving to PDF and importing into Inkscape
 * The only change in Inkscape was to shrink the page to fit the content
 -->
 <pre class="include">
-path: datatable.svg
+path: p0130/datatable.svg
 </pre>
 
 The source code for the test {#testsource}
